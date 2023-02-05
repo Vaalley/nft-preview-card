@@ -88,6 +88,10 @@ hr {
 	outline: 1px solid white;
 }
 
+.creator-credit {
+	margin-bottom: 0;
+}
+
 .creator-name {
 	color: white;
 	font-weight: 400;
@@ -96,4 +100,19 @@ hr {
 .creator-name:hover {
 	color: var(--cyan);
 	cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+	.card-container {
+		width: 90%;
+	}
+
+	.equilibrium {
+		width: 100%;
+	}
+
+	.creator-avatar {
+		width: 30px;
+		height: 30px;
+	}
 }
