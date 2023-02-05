@@ -1,0 +1,99 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+:root {
+	--soft-blue: hsl(215, 51%, 70%);
+	--cyan: hsl(178, 100%, 50%);
+	--very-dark-blue: hsl(217, 54%, 11%);
+	--dark-blue: hsl(216, 50%, 16%);
+	--dark-grey: hsl(215, 32%, 27%);
+}
+
+body {
+	font-family: "Outfit", sans-serif;
+	background-color: var(--very-dark-blue);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.card-container {
+	background-color: var(--dark-blue);
+	width: 360px;
+	height: max-content;
+	border-radius: 20px;
+	padding: 2em;
+}
+
+.equilibrium {
+	width: 100%;
+	border-radius: 20px;
+	margin-bottom: 1em;
+}
+
+h2 {
+	color: white;
+	font-size: 1.5em;
+	font-weight: 500;
+	margin-bottom: 1.2em;
+}
+
+h2:hover {
+	color: var(--cyan);
+	cursor: pointer;
+}
+
+p {
+	color: var(--soft-blue);
+	font-size: 1.1em;
+	font-weight: 400;
+	margin-bottom: 1.2em;
+}
+
+.price-time-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.price {
+	color: var(--cyan);
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+}
+
+.time {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+}
+
+hr {
+	border: 1px solid var(--dark-grey);
+	margin-bottom: 1.2em;
+}
+
+.creator-credit-container {
+	display: flex;
+	align-items: center;
+	gap: 2em;
+}
+
+.creator-avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	outline: 1px solid white;
+}
+
+.creator-name {
+	color: white;
+	font-weight: 400;
+}
+
+.creator-name:hover {
+	color: var(--cyan);
+	cursor: pointer;
+}
